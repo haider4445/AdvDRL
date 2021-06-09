@@ -69,9 +69,9 @@ The functions in this file can are used to create the following functions:
 """
 import tensorflow as tf
 import baselines.common.tf_util as U
-from baselines.deepq.cleverhans.attacks.fast_gradient_method import FastGradientMethod
-from baselines.deepq.cleverhans.attacks.basic_iterative_method import BasicIterativeMethod
-from baselines.deepq.cleverhans.attacks.carlini_wagner_l2 import CarliniWagnerL2
+from cleverhans.attacks.fast_gradient_method import FastGradientMethod
+from cleverhans.attacks.basic_iterative_method import BasicIterativeMethod
+from cleverhans.attacks.carlini_wagner_l2 import CarliniWagnerL2
 
 from cleverhans.model import CallableModelWrapper
 
